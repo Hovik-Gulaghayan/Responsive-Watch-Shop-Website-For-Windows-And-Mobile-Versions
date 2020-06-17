@@ -1,0 +1,2178 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+body{
+	overflow-x: hidden;
+}
+header{
+	width: 100%;
+	height: 160px;
+	background-color: #1c1c1c;
+}
+.head{
+	width: 96%;
+	display: inline-flex;
+	margin-top: 30px;
+	height: 55px;
+	margin-right: 1%;
+	margin-left: 1%;
+	padding: 1%;	
+}
+.header-brand a{
+	color:#f0da98;
+	font-size:56px;
+	display: block;
+	width:fit-content;
+	font-weight: 1000;
+	font-family: Arial;
+	text-shadow: 1px 3px white;
+	margin-left: 70px;
+}
+.sidebar-icon{
+	float: left;
+	font-size:54px;
+	color:#f0da98;
+	padding: 1px 5px 60px 5px;
+	border:2px solid #f0da98;
+	margin-left: 20px;
+}
+.sidebar-icon:hover{
+	color: #fff;
+	border-color: #fff;
+}
+.header-icons{
+	color: #f0da98;
+	float: right;
+	display: block;
+	font-size: 50px;
+}
+#header-searchIcon{
+	margin-right: 20px;
+}
+.header-icons:hover{
+	color: #fff;
+}
+header .header-brand{
+	margin: 0 auto;
+	text-align: center;
+	padding-right: 55px;
+	padding-left:15px;
+}
+.header-font{
+	display: block;
+	margin-top: 10px;
+}
+#content{
+ 	width: 0;
+	height: 100vh;
+	background-color: #111;
+	overflow-x: hidden;
+	position: fixed;
+	transition: 0.4s;
+	top:0;
+	left: 0;
+	opacity: 1;
+	padding-top: 20px;
+}
+.main-txt{
+	display: block;
+	font-size: 48px;
+	padding-left: 75px;
+	line-height: 106px;
+	color: #f0da98;
+	text-transform: uppercase;
+	font-weight: 900;
+	padding-top:20px;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+.child-txt{
+	display: block;
+	color:#fff;
+	font-size: 36px;
+	padding-left: 100px;
+	line-height: 66px;
+	font-weight: 600;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+.close-icon{
+	font-size: 68px;
+	color: #f0da98;
+	margin-left: 450px;
+	padding: 25px 30px;
+}
+.close-icon:hover{
+	color:red;
+}
+.myUl{
+}
+.myUl .bordered-list{
+	width: 100%;
+	border-bottom: 1px solid #f0da98;
+	padding-bottom: 30px;
+}
+.socialMedia{
+	padding-top: 40px;
+	text-align: center;
+	width: 100%;
+}
+.sm-img:hover{
+	color: #fff;
+}
+.sm-img{
+	color:#f0da98;
+	font-size: 70px;
+	padding: 20px 30px;
+	border: 2px solid #f0da98;
+	margin: 0px 15px;
+	border-radius: 30px;
+}
+div ul li a:hover{
+	background-color:  #f0da98;
+	color: #111;
+}
+nav{
+	height:80px;
+	width: 100%;
+	background-color: #f0da98;
+}
+nav .nav-bar{
+	display: block;
+	margin: 0 auto;
+	width: fit-content;
+}
+nav .nav-main{
+	float: left;
+	text-align: center;
+	padding:0px 25px 0px 25px;
+}
+nav ul li a{
+	font-size: 33px;
+	color: #1d1d1d;
+	font-weight: 600;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	display: block;
+	text-align: center;
+	line-height: 75px;
+}
+nav ul li a:hover{
+	color: white;
+}
+nav .nav-dropdown{
+	position: absolute;
+	background-color: #1d1d1d;
+	border-radius: 0px 0px 4px 4px;
+	display: none;
+	margin-top: 5px;
+	opacity: 1;
+}
+nav .nav-dropdown li{
+	width: 320px;
+}
+nav .nav-dropdown a{
+	font-size: 28px;
+	color:#fff;
+	text-align: left;
+	padding: 0px 20px 0px 25px;
+	font-weight: 600;
+	font-family: Arial;
+}
+nav .nav-main-dropdown{
+	float: left;
+	padding:0px 25px 5px 25px;
+}
+nav ul li:hover .nav-dropdown{
+	display: block;
+}
+nav .nav-dropdown a:hover{
+	color: #f0da98;
+	border-bottom: 1px solid #f0da98;
+}
+#phone-icon, #email-icon{
+	padding-right: 18px;
+	font-size: 28px;
+}
+#dropdown-icon{
+	padding-left:11px;
+	font-weight: 600;
+	font-size: 34px;
+}
+#box{
+	width:100%;
+	background-color: #1c1c1c;
+	height: 170px;
+	position: absolute;
+	overflow: hidden;
+	text-align: center;
+	padding: 50px 0px 20px 0px;
+	margin: 0 auto;
+	display: none;
+}
+.alert-text{
+	display: inline-block;
+	color: white;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 23px;
+	font-family: Arial;
+	padding:10px 120px 15px 0px;
+}
+.box-second-line input{
+	font-size: 36px;
+	border:none;
+	outline: none;
+	background: none;
+	color: #f0da98;
+	border-bottom: 1px solid #f0da98;
+	padding: 10px 0px 0px 2px;
+}
+#box-close-icon{
+	font-size: 45px;
+	color: #fff;
+}
+#box-search-icon{
+	font-size: 34px;
+	color: #cba181;
+}
+#box-search-icon:hover{
+	color:#fff;
+}
+#box-close-icon:hover{
+	color: red;
+}
+.box-second-line input:hover{
+	background-color: #111;
+	border-radius: 4px 4px;
+}
+.cart-num{
+    float: right;
+    color:white;
+    margin-left: 6px;
+    font-size: 18px;
+    font-weight: 900;
+    background-color: red;
+    padding:4px 9px 4px 7px;
+    border-radius: 25px;
+    text-align: center;
+}
+.fades {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+main{
+	width: 100%;
+}
+.slide-img{
+	width: 100%;
+	height: 500px;
+}
+.index-box{
+	margin: 75px 35px;
+	text-align: center;
+}
+.box-img{
+	width: 100%;
+	height: 550px;
+}
+.bestSelling {
+    display: inline-block;
+    color: #1C1C1C;
+    font-size: 45px;
+    font-weight: 900;
+    text-transform: uppercase;
+    border-bottom: 2px solid #1C1C1C;
+    margin: 0px 0px 0px 50px;
+    padding: 0px 0px 10px 0px;
+}
+.items {
+    display: block;
+}
+.item {
+    text-align: center;
+}
+.item img {
+    display: block;
+    margin: auto;
+    width: 70%;
+}
+.item h2 {
+	text-align: center;
+    font-size: 42px;
+    display: block;
+    margin: 0px 25px 10px 25px;
+    padding: 0 0 5px 0;
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    color: #1C1C1C;
+    font-weight: 900;
+}
+.add-to-cart, 
+.add-to-cart-homePage, 
+.add-to-cart-ForMen,
+.add-to-cart-ForWomen,
+.add-to-cart-Unisex{
+	text-align: center;
+    border: 1px solid #ef4478;
+    padding: 16px 50px;
+    background-color: #111;
+    color: #f0da98;
+    text-transform: uppercase;
+    margin: auto;
+    font-weight: 900;
+    cursor: pointer;
+    font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+    font-size: 42px;
+}
+.add-to-cart:focus{
+	outline: none !important;
+}
+.add-to-cart-homePage:focus{
+	outline: none !important;
+}
+.add-to-cart-ForMen:focus{
+	outline: none !important;
+}
+.add-to-cart-ForWomen:focus{
+	outline: none !important;
+}
+.add-to-cart-Unisex:focus{
+	outline: none !important;
+}
+.add-to-cart-Smart-watches:focus{
+	outline: none !important;
+}
+.item p{
+    text-align: center;
+    font-size: 44px;
+    color: #1C1C1C;
+    margin: 25px 0px 35px 0px;
+    color: red;
+    font-weight: 900;
+}
+.third-section{
+	margin:150px 0px 0px 0px;
+	padding: 80px 20px 80px 20px;
+	background-color: #e6d28b;
+	text-align: center;
+}
+.third-section img{
+	width: 80%;
+}
+.third-section h1{
+	font-size: 70px;
+	font-weight: 1000;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	margin: 90px 0px 30px 0px;
+	color:#464646;
+}
+.third-section h2{
+	font-size: 68px;
+	font-weight: 10;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	color:#464646;
+}
+.third-section p{
+	font-size: 36px;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	color:#464646;
+	text-align: center;
+	padding: 40px 80px 0px 80px;
+	width: 80%;
+	margin: auto;
+}
+footer{
+	width: 100%;
+	background-color: #1c1c1c;
+	height: 310px;
+	margin: auto;
+}
+.leftSide-info{
+	float: left;
+	display: block;
+	margin: 30px 0px 30px 80px;
+}
+.rightSide-info{
+	float: right;
+	display: block;
+}
+footer li{
+	color: #fff;
+}
+footer li a{
+	color: #fff;
+}
+.leftSide-info li{
+	line-height: 47px;
+}
+.leftSide-info li a{
+	font-size: 28px;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-family: Arial;
+	color: #fff;
+}
+.rightSide-info{
+	margin: 22px 0px 30px 120px;
+	width: 50%;
+}
+.rightSide-info li{
+	line-height: 59px;
+}
+.rightSide-info li a{
+	font-size: 28px;
+	font-weight: 900;
+	font-family: Arial
+}
+.rightSide-info li a:hover, .leftSide-info li a:hover{
+	color:#f0da98;
+}
+.rightSide-info-headerTxt{
+	font-size: 30px;
+	text-transform: uppercase;
+	font-weight: 900;
+	font-family: Arial;
+	color: #fff;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #f0da98;
+	width: 70%;
+	padding-bottom: 10px;
+}
+#location-icon{
+	margin-right: 15px;
+	color: red;
+}
+.locationTxt-2{
+	margin-left: 46px;
+}
+.second-section-headerTxt{
+	text-align: center;
+	color: #f2f2f2;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-family: Arial;
+	margin: 10px 0px 40px 0px;
+	font-size: 44px;
+}
+.footer-second-section{
+	padding: 15px 50px;
+	height: 200px;
+	background-color: #1c1c1c;
+	border-top: 1px solid #f0da98;
+	text-align: center;
+}
+.footer-sm-img{
+	padding: 45px;
+	color:white;
+	font-size: 50px;
+}
+.footer-sm-img:hover{
+	color: #f0da98;
+}
+.collectionsTxt{
+	text-align: center;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	font-size: 80px;
+	padding:  80px 0px;
+	margin-bottom: 30px;
+	color: #f0da98;
+	text-transform: uppercase;
+	text-shadow: 2px 2px #f0da98;
+	width: 100%;
+}
+.collectionsIndex h1{
+	color: #fff;
+	font-size: 69px;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	margin: 120px 0px 0px 34px;
+	width: 92%;
+	font-weight: 900;
+}
+.collectionsIndex{
+	text-align: center;
+	margin: 0 auto;
+	background-color: #12100e;
+	width: 90%;
+	border: 4px solid #f0da98;
+	margin-bottom: 40px;
+	border-radius: 50px;
+}
+.collectionsIndex img{
+	width: 80%;
+}
+.shop-main{
+	background-color: #0b0a08;
+	padding: 50px 0px 100px 0px;
+}
+#collectionsIndex-lastItem{
+	margin-bottom: 0px;
+}
+.shop-links:hover{
+	color: gray;
+}
+.for-men-main,
+.for-women-main,
+.for-unisex-main,
+.smart-watches-main,
+.sendMessage-main,
+.aboutUs-main,
+.FAQ-main{
+	background-color: #0b0a08;
+	padding: 50px 75px 100px 15px;
+}
+.shopPages-header{
+	width: 1070px; 
+}
+.shop-links{
+	color: #fff;
+	font-size: 45px;
+	border-right: 5px solid #fff;
+	padding: 0px 35px 0px 35px;
+}
+.shop-links:hover{
+	color: #f0da98;
+}
+.shop-links-lastElement{
+	color: #fff;
+	font-size: 45px;
+	border-bottom: 4px solid #fff;
+	margin-left: 30px;
+	padding-bottom: 10px;
+}
+.shop-links-firstElement{
+	color: #fff;
+	font-size: 45px;
+	border-bottom: 4px solid #fff;
+	padding-bottom: 10px;
+	margin-left: 40px;
+}
+.shop-links-main{
+	margin:0px 0px 100px 30px;
+}
+#shop-items{
+	text-align: center;
+	margin-left:5%;
+	width: 95%;
+	border-bottom: 3px solid #f0da98;
+	padding-bottom: 140px;
+	margin-top: 140px;
+}
+#shop-items-img{
+	width: 90%;
+	background-color: #12100e;
+	margin-bottom: 40px;
+}
+#shop-items-img-wp{
+	width: 90%;
+	background-color: #12100e;
+	margin-bottom: 40px;
+}
+.item h3{
+	font-size: 50px;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	color: #e7e0dd;;
+	text-align:center;
+	font-weight: 600;
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 15px;
+}
+#shop-items-price{
+	font-size: 50px;
+	color: #f0da98;
+	font-family: "Josefin Sans", sans-serif;
+	padding: 20px;
+	margin: 0px 0px 25px 0px;
+}
+.shop-item-fonts{
+	color: #f0da98;
+	padding: 15px 24px 15px 24px;
+	border: 4px solid #f0da98;
+	margin: 0px 15px 0px 15px;
+	border-radius: 20px;
+	text-align: center;
+    cursor: pointer;
+    background-color: #12100e;
+}
+#shop-items 
+.add-to-cart-ForMen,
+.add-to-cart-ForWomen,
+.add-to-cart-Unisex,
+.add-to-cart-Smart-watches{
+	color: #f0da98;
+	padding: 15px 24px 15px 24px;
+	border: 4px solid #f0da98;
+	margin: 0px 15px 0px 15px;
+	border-radius: 20px;
+	text-align: center;
+    cursor: pointer;
+    background-color: #12100e;
+}
+.shop-item-fonts:focus{
+	outline: none !important;
+}
+.item i{
+	font-size: 70px;
+}
+.shopItemsPage-headerTxt{
+	font-size: 80px;
+	color: #f0da98;
+	margin: 50px;
+	padding: 50px;
+	text-align: center;
+	width: 80%;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	font-weight: 900;
+}
+.cart-main{
+	background-color: #0b0a08;
+	padding: 50px 0px 300px 0px;
+	color: #f0da98;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+.products-container{
+	justify-content: space-around;
+	margin: 0 auto;
+	padding:70px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.product-header{
+	width: 100%;
+	display: flex;
+	justify-content: flex-start;
+	border-bottom: 4px solid #f0da98;
+	margin: 0 auto;
+	padding-bottom: 20px; 
+}
+.product-title{
+	width:100%;
+	font-size: 26px;
+	font-weight: 300;
+	margin-right: 80px;
+}
+.price{
+	width: 15%;
+	display: flex;
+	align-items: center;
+	font-size: 26px;
+	font-weight: 300;
+	margin-right: 100px;
+}
+.quantity{
+	width: 30%;
+	display: flex;
+	align-items: center;
+	font-size: 26px;
+	font-weight: 300;
+	margin: 0px 50px 0px 0px;
+}
+.total{
+	width: 10%;
+	display: flex;
+	align-items: center;
+	font-size: 26px;
+	font-weight: 300;
+}
+.product{
+	width: 100%;
+	border-bottom: 2px solid #f0da98;
+	justify-content: space-around;
+	display: flex;
+	align-items: center;
+	padding: 40px 0;
+	margin: 10px 0px;
+}
+.product img{
+	height: 130px;
+	margin-right: 40px;
+}
+.product-name{
+	font-size: 26px;
+	margin: 0px 120px 0px 25px;
+	width: 100%;
+	font-weight: 300;
+}
+.basketTotalContainer{
+	display: flex;	
+	width: 100%;
+	padding: 10px 0;
+}
+.checkout-button{
+	float: right;
+	display: block;
+	background-color: #111;
+	border: 2px solid red;
+	color: #f0da98;
+	padding: 15px 25px;
+	font-size: 30px;
+	margin-top: 35px;
+}
+.checkout-button-a{
+	margin-left: 40%;
+}
+.basketTotalTitle,
+.basketTotal{
+	float: left;
+	display: block;
+}
+.basketTotalTitle{
+	margin-top: 35px;
+	width: 30%;
+	font-size: 32px;
+}
+.basketTotal{
+	margin-top: 35px;
+	width: 10%;
+	font-size: 32px;
+	border-bottom: 3px solid #f0da98;
+}
+.noItemsTxt{
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	font-size: 60px;
+	padding: 375px 0px 545px 0px;
+	color: white;
+}
+#error-icon{
+	padding-right: 20px;
+	font-size: 80px;
+	color: red;
+}
+.logIn-box{
+    width: 70%;
+    padding: 50px 50px;
+    margin: 0 auto;
+    background: #111;
+    border: 1px solid rgba(147, 184, 189,0.8);
+    height: 950px;
+    border-radius: 20px;
+}
+.signUp-box{
+	width: 70%;
+    padding: 50px 50px;
+    margin: 0 auto;
+    background: #111;
+    border: 1px solid rgba(147, 184, 189,0.8);
+    border-radius: 20px;
+}
+.LogIn-main{
+	background-color: #0b0a08;
+	width: 100%;
+	padding: 150px 0px 750px 0px;
+}
+.logIn-box h1,
+.signUp-box h1{
+	text-align: center;
+	font-size: 70px;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	color: #f0da98;
+	padding-bottom: 60px;
+	font-weight: 900;
+}
+.logIn-box h1:after{
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin: 40px 0px;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(240,218,152,0)), color-stop(20%,rgba(240,218,152,0.8)), color-stop(53%,rgba(240,218,152,1)), color-stop(79%,rgba(240,218,152,0.8)), color-stop(100%,rgba(240,218,152,0)));
+}
+.signUp-box h1:after{
+    content: ' ';
+    display: block;
+    width: 100%;
+    height: 2px;
+    margin: 40px 0px;
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(240,218,152,0)), color-stop(20%,rgba(240,218,152,0.8)), color-stop(53%,rgba(240,218,152,1)), color-stop(79%,rgba(240,218,152,0.8)), color-stop(100%,rgba(240,218,152,0)));
+}
+.logIn-box .box-input,
+.signUp-box .box-input{
+	width: 95%;
+	margin-bottom: 80px;
+	font-size: 35px;
+	padding: 24px 0px 24px 30px;
+	border-radius: 5px;
+	background-color: #111;
+	border: 2px solid #f2f2f2;
+	color:#fff;
+}
+.logIn-box .box-input:focus{
+	border:1px solid #f0da98;
+}
+.signUp-box .box-input:focus{
+	border:1px solid #f0da98;
+}
+.box-checkBox{
+	width: 100%;
+	height: 38px;
+	background-color: red;
+	color: blue;
+	float: left;
+}
+.checkbox-text{
+	font-size: 32px;
+	color: #fff;
+	font-family: "Trebuchet MS","Myriad Pro",Arial,sans-serif;
+	margin-left: 90px;
+}
+.box-submit{
+	margin-top: 70px;
+	font-size: 42px;
+	float: right;
+	padding: 20px 55px;
+	color: #fff;
+	background-color: #111;
+	font-family: arial;
+	font-weight: 600;
+	border: 2px solid #f0da98;
+}
+.box-submit:focus{
+	border: 2px solid red;
+}
+.box-bottomPart{
+	float: right;
+	width: 100%;
+	margin-top: 60px;
+	border-top: 3px solid #f3f3f3;
+	padding-top: 50px;
+}
+.box-bottomPart p,
+.signup-bottomPart p {
+	color: rgb(127, 124, 124);
+	font-size: 38px;
+	float: right;
+	font-family: "Trebuchet MS","Myriad Pro",Arial,sans-serif;
+}
+.box-bottomPart input,
+.signup-bottomPart input{
+	float: right;
+	font-size: 36px;
+	background-color: #111;
+	color: #f0da98;
+	border: none;
+	margin-left: 30px;
+	font-family: "Trebuchet MS","Myriad Pro",Arial,sans-serif;
+}
+#signup-box{
+	display: none;
+}
+.signUp-button{
+	width: 100%;
+	margin-bottom: 80px;
+	font-size: 45px;
+	padding: 35px 0px 35px 20px;
+	border-radius: 2px;
+	background-color: #111;
+	color:#fff;
+	font-weight: 600;
+	border: 2px solid #f0da98;
+}
+.signUp-button:focus{
+	border: 1px solid red;
+}
+.select-country{
+	width: 97.3%;
+	margin-bottom: 80px;
+	font-size: 35px;
+	padding: 28px 0px 28px 30px;
+	border-radius: 5px;
+	background-color: #111;
+	border: 2px solid #f2f2f2;
+	color:#fff;
+}
+.signup-bottomPart{
+	width: 100%;
+	margin-top: 20px;
+	padding-bottom: 80px;
+}
+.sendMessage-main{
+	padding-bottom: 780px; 
+}
+.sendMessage-form{
+	width: 80%;
+	background-color: #111;
+	margin: 0 auto;
+	padding: 40px 50px;
+	height: 1000px;
+	margin-top:225px;
+}
+.sendMessage-form h1{
+	text-align: center;
+	font-size: 70px;
+	font-family: cursive;
+	color: #fff;
+	margin-bottom: 20px;
+}
+.sendMessage-form h3{
+	text-align: center;
+	font-size: 28px;
+	font-family: cursive;
+	color: #fff;
+	margin-bottom: 70px;
+}
+.messageBox-input{
+	width: 95%;
+	height: 65px;
+	font-size: 34px;
+	margin: 20px 0px 40px 0px;
+	padding: 5px 15px;
+	background-color: #111;
+	border: 2px solid #f2f2f2;
+	color:#fff;
+}
+.messageBox-leftSide{
+	width: 50%;
+	float: left;
+}
+.messageBox-rightSide{
+	width: 42%;
+	float: right;
+}
+.messageBox-textarea{
+	width: 100%;
+	height: 410px;
+	background-color: #111;
+	font-size: 28px;
+	padding: 15px 15px;
+	margin: 20px 0px;
+	border: 2px solid #f2f2f2;
+	color: #fff;
+}
+.messageBox-leftSide p,
+.messageBox-rightSide p{
+	font-size: 40px;
+	font-family: Arial;
+	color: #f0da98;
+	font-weight: 600;
+}
+.meassageBox-submit{
+	font-size:40px;
+	padding: 15px 50px;
+	margin-top: 40px;
+	width: 100%;
+	background-color: #111;
+	color: #f0da98;
+	border: 2px solid #f2f2f2;
+	font-weight: 600;
+	font-family: arial;
+}
+.aboutUs-index h1{
+	color: #f0da98;
+	text-align: center;
+	font-weight: 900;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	font-size: 70px;
+	padding: 130px 0px 80px 0px;
+}
+.aboutUs-index p{
+	color: #fff;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	width: 85%;
+	margin: 0 auto;
+	font-size: 26px;
+	line-height: 65px;
+}
+.second-paragraph{
+	padding-top:130px;
+}
+.aboutUs-index {
+	padding: 0px 40px 120px 40px;
+}
+.product-main{
+	background-color: #0b0a08; 
+	padding: 50px 0px 100px 0px;
+}
+.product-image-single-page img{
+	width: 80%;
+	margin: 0px 90px;
+}
+.availability{
+	color: #f0da98;
+	font-size: 50px;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	margin-bottom: 85px;
+}
+.product-details .availability-num{
+	color:green;
+}
+.product-details{
+	padding: 0px 60px 300px 60px;
+}
+.brand-name{
+	color: #f0da98;
+	font-size: 70px;
+	margin-top: 100px;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	font-weight: 900;
+}
+.brand-price{
+	color: #f0da98;
+	font-size: 85px;
+	font-weight: 900;
+	margin-top: 55px;
+	margin-bottom: 30px;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+}
+.brand-sale{
+	color: #fff;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	font-size: 50px;
+	text-decoration: line-through;
+}
+.brand-sale-minus{
+	color: red;
+	margin-left: 15px;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	font-size: 50px;
+}
+.brand-text{
+	color:#fff;
+	margin: 120px 0px 0px 20px;
+	text-align: left;
+	width: 95%;
+	font-size: 45px;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	line-height: 75px;
+}
+.star-icons i{
+	 color: gray;
+	 font-size: 70px;
+}
+.star-icons span{
+	color: #fff;
+	margin-left: 30px;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	font-size: 65px;
+}
+#add-to-cart-single-pages-button{
+	margin-top: 120px;
+	color: #f0da98;
+	background-color: #111;
+	border:2px solid #f2f2f2;
+	border-radius: 10px;
+	font-size: 60px;
+}
+.add-to-cart-single-pages{
+	text-align: center;
+	width: 100%;
+}
+.add-to-cart-single-pages span{
+	font-weight: 900;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	cursor: pointer;
+	padding:16px 150px 22px 0px;
+}
+.add-to-cart-single-pages i{
+	cursor: pointer;
+	padding-left: 150px;
+	padding:30px 40px 30px 150px;
+}
+.add-to-cart-forMen-FirstWatch:focus{
+	outline: none;
+}
+.nav-hiding{
+	display: none;
+}
+.FAQ-main{
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif; 
+}
+.FAQ-main h5{
+	margin-left: 80px;
+	font-size: 26px;
+	color: #f0da98;
+	font-weight: 900;
+}
+.FAQ-main p{
+	padding: 40px 40px 70px 80px;
+	font-size: 15px;
+	width: 82%;
+	color: #fff;
+	line-height: 50px;
+}
+
+@media only screen and (min-width:1000px){
+.shopPages-header{
+	width: 100%; 
+}
+nav{
+	width: 100%;
+}
+.nav-hiding{
+	display: block;
+}
+nav ul li a{
+	font-size: 24px;
+	line-height: 65px;
+	font-weight: 300;
+}
+nav .nav-main{
+	padding:0px 18px 0px 18px;
+}
+#dropdown-icon{
+	font-size: 19px;
+	padding-left:6px;
+}
+nav .nav-main-dropdown{
+	float: left;
+	display: block;
+	padding:0px 16px 0px 16px;
+}
+nav .nav-bar{
+	margin-left: 35px;
+}
+.sidebar-icon{
+	display: none;
+}
+nav{
+	height: 65px;
+}
+nav .nav-dropdown{
+	margin-top: 0px;
+}
+.nav-shop-block{
+	display: none;
+}
+nav .nav-dropdown a{
+	font-size: 24px;
+	font-weight: 300;
+}
+.header-icons{
+	font-size: 36px;
+	margin-top: 10px;
+}
+header{
+	height: 120px;
+}
+.head{
+	margin-top: 10px;	
+}
+.header-brand a{
+	font-size:48px;
+	font-weight: 1000;
+	margin-left: 70px;
+}
+.cart-num{
+    margin-left: 6px;
+    font-size: 11px;
+    padding:4px 7px 5px 6px;
+    border-radius: 25px;
+}
+#box{
+	height: 140px;
+	padding: 30px 0px 20px 0px;
+}
+.alert-text{
+	font-size: 23px;
+	padding:10px 200px 15px 0px;
+}
+.box-second-line input{
+	font-size: 32px;
+	width: 500px;
+	margin-right: 20px;
+}
+#box-close-icon{
+	font-size: 35px;
+}
+#box-search-icon{
+	font-size: 34px;
+	margin-top: 20px;
+}
+.first-section{
+	display: flex;
+}
+.box-img{	
+	height: 325px;
+}
+.index-box{
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 50px;
+	margin-bottom: 90px;
+}
+.bestSelling {
+    font-size: 30px;
+    text-align: center;
+}
+.items{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+.item{
+	width: 32%;
+	display: block;
+	margin: 0 auto;
+	float: left;
+	margin-bottom: 30px;
+	margin-left: 10px;
+}
+.item img {
+    display: block;
+    margin: auto;
+    width: 270px;
+    height: 400px;
+}
+.item h2 {
+    font-size: 22px;
+    margin: 0px 25px 0px 60px;
+    width: 70%;
+}
+.item p{
+    font-size: 24px;
+    margin: 25px 0px 30px 0px;
+}
+.add-to-cart-homePage{
+    padding: 10px 36px;
+    font-size: 18px;
+    font-size: 24px;
+}
+.third-section{
+	margin:1450px 0px 0px 0px;
+	padding: 40px 20px 120px 25px;
+}
+.third-section img{
+	width: 400px;
+	height: 375px;
+	float: left;
+	margin-left: 4%;
+}
+.third-section h1{
+	font-size: 46px;
+	margin: 90px 0px 10px 0px;
+}
+.third-section h2{
+	font-size: 30px;
+}
+.third-section p{
+	font-size: 16px;
+	padding: 20px 80px 0px 80px;
+	margin-left: 7%;
+}
+.footer-second-section{
+	padding: 25px 0px;
+	height: 138px;
+}
+.second-section-headerTxt{
+	margin: 0px 0px 30px 0px;
+	font-size: 36px;
+}
+.sm-fonts{
+	font-size: 40px;
+}
+.shop-links{
+	font-size: 20px;
+	border-right: 3px solid #fff;
+	padding: 0px 25px 0px 35px;
+}
+.shop-links-lastElement{
+	font-size: 20px;
+	border-bottom: 2px solid #fff;
+	margin-left: 25px;
+	padding-bottom: 7px;
+}
+.shop-links-firstElement{
+	font-size: 20px;
+	border-bottom: 2px solid #fff;
+	padding-bottom: 7px;
+	margin-left: 25px;
+}
+.shop-index{
+	margin-left: 7%;
+}
+.collectionsTxt{
+	font-size: 42px;
+	padding:  0px 0px 80px 0px;
+	text-shadow: 1px 1px #f0da98;
+}
+.collectionsIndex h1{
+	font-size: 28px;
+	margin: 40px 0px 0px 20px;
+}
+.collectionsIndex{
+	width: 37%;
+	margin: 0px 20px 70px 50px;
+	float: left;
+}
+.collectionsIndex img{
+	width: 300px;
+	height: 420px;
+}
+.collectionsIndex img:hover{
+	width: 330px;
+	transition: 0.6s;
+}
+.shop-main{
+	height: 1400px;
+}
+.shopItemsPage-headerTxt{
+	font-size: 42px;
+	width: 97%;
+	margin: 0px;
+	padding: 0px;
+}
+#shop-items{
+	width: 30%;
+	margin-left: 30px;
+	background-color: #111;
+}
+#shop-items-img{
+	margin-bottom: 40px;
+	height: 300px;
+	width: 300px;
+	background-color: #111;
+}
+#shop-items-img-wp{
+	padding: 120px 0px;
+	height: 460px;
+	width: 300px;
+}
+.item h3{
+	font-size: 30px;
+	width: 80%;
+	margin-left: 10%;
+	margin-bottom: 15px;
+}
+#shop-items-price{
+	font-size: 28px;
+	margin: 0px 0px 25px 0px;
+	margin-left: 10%;
+}
+.shop-item-fonts{
+	padding: 20px;
+	border: 2px solid #f0da98;
+	margin: 0px 12px 0px 12px;
+	border-radius: 15px;
+}
+#shop-items 
+.add-to-cart-ForMen,
+.add-to-cart-ForWomen,
+.add-to-cart-Unisex{
+	padding: 0px 20px 10px 20px;
+	border: 2px solid #f0da98;
+	border-radius: 15px;
+}
+.add-to-cart-Smart-watches{
+	padding: 20px;
+	border: 2px solid #f0da98;
+	border-radius: 15px;
+}
+.item i{
+	font-size: 28px;
+}
+.for-men-main,
+.for-women-main,
+.for-unisex-main,
+.smart-watches-main{
+	height: 4150px;
+	padding: 50px 0px 100px 0px;
+	width: 100%;
+}
+.add-to-cart,
+.add-to-cart-ForMen,
+.add-to-cart-ForWomen,
+.add-to-cart-Unisex,{
+    font-size: 18px;
+}
+.cart-main{
+	padding: 0px 0px 120px 0px;
+}
+.products-container{
+	width: 80%;
+	margin: 0px 50px;
+}
+.product-header{
+	width: 99%;
+	border-bottom: 2px solid #f0da98;
+	margin: 0px 0px 0px 0px;
+	padding-bottom: 12px; 
+}
+.product-title{
+	width:50%;
+	font-size: 20px;
+}
+.price{
+	width: 1%;
+	font-size: 20px;
+	margin-right: 100px;
+}
+.quantity{
+	width: 10%;
+	font-size: 20px;
+	margin: 0px 50px 0px 40px;
+}
+.total{
+	width: 6%;
+	font-size: 20px;
+	margin-left: 80px;
+}
+.product{
+	width: 100%;
+	border-bottom: 1px solid #f0da98;
+	padding: 10px 0;
+	margin-right: 140px;
+}
+.product img{
+	height: 170px;
+	width: 150px;
+	margin-right: 20px;
+}
+.product-name{
+	font-size: 22px;
+	margin: 0px 22px 0px 25px;
+	width: 100%;
+}
+.basketTotalContainer{
+	width: 100%;
+	padding: 10px 0;
+}
+.checkout-button{
+	border: 2px solid red;
+	padding: 9px 18px;
+	font-size: 16px;
+	margin-top: 25px;
+}
+.checkout-button-a{
+	margin-left: 66%;
+}
+.basketTotalTitle{
+	margin-top: 25px;
+	width: 150px;
+	font-size: 22px;
+	font-weight: 300;
+	margin-right: 50px;
+}
+.basketTotal{
+	font-weight: 300;
+	margin-top: 25px;
+	width: 55px;
+	font-size: 22px;
+	border-bottom: 2px solid #f0da98;
+}
+.noItemsTxt{
+	font-size: 35px;
+	padding: 70px 0px 145px 0px;
+}
+#error-icon{
+	font-size: 38px;
+}
+.sendMessage-main{
+	padding-bottom: 100px; 
+}
+.sendMessage-form{
+	width: 70%;
+	padding: 30px 25px 30px 40px;
+	height: 540px;
+	margin-top: 0px;
+}
+.sendMessage-form h1{
+	font-size: 42px;
+	margin-bottom: 10px;
+}
+.sendMessage-form h3{
+	font-size: 17px;
+	margin-bottom: 30px;
+}
+.messageBox-input{
+	width: 85%;
+	height: 28px;
+	font-size: 18px;
+	margin: 12px 0px 15px 0px;
+}
+.messageBox-leftSide{
+	width: 50%;
+	float: left;
+}
+.messageBox-rightSide{
+	width: 48%;
+	float: right;
+}
+.messageBox-textarea{
+	width: 85%;
+	height: 205px;
+	font-size: 18px;
+	margin: 14px 0px;
+}
+.messageBox-leftSide p,
+.messageBox-rightSide p{
+	font-size: 19px;
+	margin-top: 8px;
+}
+.meassageBox-submit{
+	font-size:24px;
+	padding: 10px 25px;
+	margin-top: 35px;
+	width: 35%;
+	margin-left: 33%;
+}
+.logIn-box{
+    width: 32%;
+    padding: 40px 40px;
+    height: 540px;
+    border-radius: 15px;
+}
+.signUp-box{
+	width: 32%;
+    padding: 40px 50px;
+    border-radius: 20px;
+}
+.LogIn-main{
+	padding: 50px 0px 100px 0px;
+}
+.logIn-box h1,
+.signUp-box h1{
+	font-size: 35px;
+	padding-bottom: 60px;
+}
+.logIn-box h1:after{
+    height: 1px;
+    margin: 30px 0px 0px 0px;
+}
+.signUp-box h1:after{
+    height: 1px;
+    margin: 30px 0px 0px 0px;
+}
+.logIn-box .box-input,
+.signUp-box .box-input{
+	width: 95%;
+	margin-bottom: 40px;
+	font-size: 16px;
+	padding: 13px 9px 13px 14px;
+	border-radius: 4px;
+	border: 1px solid #f0da98;
+}
+.box-checkBox{
+	height: 17px;
+}
+.checkbox-text{
+	font-size: 17px;
+	margin-left: 55px;
+}
+.box-submit{
+	margin-top: 40px;
+	font-size: 18px;
+	padding: 10px 28px;
+	border: 1px solid #f0da98;
+}
+.box-bottomPart{
+	margin-top: 50px;
+	border-top: 1px solid #f3f3f3;
+	padding-top: 34px;
+}
+.box-bottomPart p,
+.signup-bottomPart p {
+	font-size: 20px;
+}
+.box-bottomPart input,
+.signup-bottomPart input{
+	font-size: 20px;
+	margin-left: 30px;
+}
+.signUp-button{
+	margin-bottom: 30px;
+	font-size: 20px;
+	padding: 15px 10px 15px 20px;
+	border-radius: 2px;
+	border: 2px solid #f0da98;
+}
+.select-country{
+	margin-bottom: 40px;
+	font-size: 18px;
+	padding: 10px 0px 10px 15px;
+	border-radius: 4px;
+	border: 1px solid #f0da98;
+}
+.signup-bottomPart{
+	margin-top: 20px;
+	padding-bottom: 30px;
+}
+.aboutUs-index h1{
+	text-align: left;
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	font-size: 34px;
+	padding: 0px 0px 30px 0px;
+	margin-left: 4%;
+}
+.aboutUs-index p{
+	font-family: Palatino, "Palatino Linotype", "Palatino LT STD", "Book Antiqua", Georgia, serif;
+	width: 80%;
+	margin-left:4%;
+	font-size: 20px;
+	line-height: 40px;
+}
+.second-paragraph{
+	padding-top:40px;
+}
+.aboutUs-index {
+	padding: 0px 40px 30px 40px;
+}
+.second-head{
+	margin-top: 60px;
+}
+.FAQ-main h5{
+	font-size: 30px;
+}
+.FAQ-main p{
+	padding: 30px 40px 70px 80px;
+	font-size: 20px;
+	line-height: 40px;
+}
+.product-main{
+	background-color: #0b0a08; 
+	padding: 50px 0px 0px 0px;
+}
+.product-image-single-page img{
+	height: 300px;
+	width: 375px;
+	border: 1px solid #f0da98;
+	float: left;
+	padding: 180px 0px;
+}
+.product-image-single-page img:hover{
+	height: 425px;
+	width: 425px;
+	transition: 1s;
+	cursor: zoom-in;
+}
+.availability{
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+.product-details{
+	padding: 0px 60px 300px 30px;
+}
+.brand-name{
+	font-size: 28px;
+	margin-top: 30px;
+	font-weight: 300;
+}
+.brand-price{
+	font-size: 34px;
+	font-weight: 900;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.brand-sale{
+	font-size: 20px;
+}
+.brand-sale-minus{
+	font-size: 20px;
+}
+.brand-text{
+	margin: 40px 0px 0px 20px;
+	width: 90%;
+	font-size: 22px;
+	line-height: 40px;
+}
+.star-icons i{
+	 font-size: 20px;
+}
+.star-icons span{
+	margin-left: 12px;
+	font-size: 18px;
+}
+#add-to-cart-single-pages-button{
+	margin-top: 100px;
+	border:2px solid #f0da98;
+	font-size: 20px;
+	border-radius: 5px;
+}
+.add-to-cart-single-pages span{
+	padding:12px 65px 18px 0px;
+}
+.add-to-cart-single-pages i{
+	padding:16px 20px 16px 55px;
+}
+}
+
+@media only screen and (max-width:970px){
+.shopPages-header{
+	width: 100%;
+}
+.header-brand a{
+	font-size:40px;
+	margin-left: 30px;
+}
+.sidebar-icon{
+	font-size:32px;
+	padding: 2px 5px 2px 5px;
+	margin: 10px 20px 0px 5px;
+	height: 34px;
+}
+.header-icons{
+	font-size: 34px;
+}
+.cart-num{
+    margin-left: 6px;
+    font-size: 10px;
+    padding:3px 7px 3px 5px;
+}
+#header-searchIcon{
+	margin-right: 8px;
+}
+header{
+	height: 120px;
+}
+nav{
+	height:60px;
+}
+nav ul li a{
+	font-size: 26px;
+	line-height: 55px;
+}
+nav .nav-dropdown li{
+	width: 280px;
+}
+nav .nav-dropdown a{
+	font-size: 22px;
+}
+#dropdown-icon{
+	padding-left:8px;
+	font-size: 23px;
+}
+#phone-icon, #email-icon{
+	padding-right: 15px;
+	font-size: 24px;
+}
+.close-icon{
+	font-size: 45px;
+	margin-left: 400px;
+}
+.main-txt{
+	font-size: 34px;
+	line-height: 90px;
+}
+.child-txt{
+	font-size: 24px;
+	line-height: 40px;
+}
+.sm-img{
+	font-size: 40px;
+	padding: 12px 20px;
+	border: 2px solid #f0da98;
+	margin: 0px 45px 0px 15px;
+	border-radius: 15px;
+}
+}
+.socialMedia{
+	margin-top: 40px;
+	margin-right: 20px;
+}
+footer{
+	height: 280px;
+}
+.leftSide-info{
+	margin: 30px 0px 30px 30px;
+}
+.leftSide-info li{
+	line-height: 40px;
+}
+.leftSide-info li a{
+	font-size: 20px;
+}
+.rightSide-info{
+	margin: 22px 0px 30px 50px;
+	width: 55%;
+}
+.rightSide-info li{
+	line-height: 40px;
+}
+.rightSide-info li a{
+	font-size: 20px;
+}
+.rightSide-info-headerTxt{
+	font-size: 22px;
+	margin-top: 8px;
+}
+.locationTxt-2{
+	margin-left: 0px;
+}
+.second-section-headerTxt{
+	margin: 10px 0px 20px 0px;
+	font-size: 30px;
+}
+.footer-second-section{
+	height: 140px;
+}
+.footer-sm-img{
+	padding: 40px;
+	font-size: 48px;
+}
+.third-section h1{
+	font-size: 42px;
+}
+.third-section h2{
+	font-size: 30px;
+	font-weight: 600;
+}
+.third-section p{
+	font-size: 20px;
+	padding: 40px 20px 0px 20px;
+	width: 90%;
+}
+.add-to-cart-homePage{
+    font-size: 30px;
+    padding: 14px 60px;
+}
+.item h2 {
+    font-size: 30px;
+}
+.item p{
+    font-size: 26px;
+}
+.collectionsTxt{
+	font-size: 36px;
+	text-shadow: 1px 1px #f0da98;
+}
+.shop-links{
+	font-size: 20px;
+	border-right: 3px solid #fff;
+	padding: 0px 25px 0px 15px;
+}
+.shop-links-lastElement{
+	font-size: 20px;
+	border-bottom: 2px solid #fff;
+	margin-left: 15px;
+	padding-bottom: 8px;
+}
+.shop-links-firstElement{
+	font-size: 20px;
+	border-bottom: 2px solid #fff;
+	padding-bottom: 8px;
+	margin-left: 25px;
+}
+.shop-links-main{
+	margin:0px 0px 0px 20px;
+}
+.collectionsIndex h1{
+	font-size: 40px;
+	margin: 100px 0px 0px 28px;
+}
+.shopItemsPage-headerTxt{
+	font-size: 40px;
+	width: 100%;
+	margin-left: 0px;
+	padding-left: 0px;
+}
+.item h3{
+	font-size: 30px;
+}
+#shop-items-price{
+	font-size: 30px;
+}
+.shop-item-fonts{
+	padding: 16px 20px 20px 20px;
+	border: 2px solid #f0da98;
+	margin: 0px 15px 0px 15px;
+}
+#shop-items 
+.add-to-cart-ForMen,
+.add-to-cart-ForWomen,
+.add-to-cart-Unisex,
+.add-to-cart-Smart-watches{
+	padding: 1px 18px 12px 22px;
+	border: 2px solid #f0da98;
+}
+.item i {
+    font-size: 34px;
+}
+.product-image-single-page img{
+	margin: 0px 40px 0px 45px;
+}
+.availability{
+	font-size: 20px;
+	margin-bottom: 35px;
+	margin-top: 60px;
+}
+.brand-name{
+	font-size: 30px;
+	margin-top: 30px;
+}
+.brand-price{
+	font-size:34px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+.brand-sale{
+	font-size: 24px;
+}
+.brand-sale-minus{
+	font-size: 24px;
+}
+.brand-text{
+	margin: 40px 0px 0px 0px;
+	width: 100%;
+	font-size: 22px;
+	line-height: 40px;
+}
+.star-icons i{
+	 font-size: 26px;
+}
+.star-icons span{
+	margin-left: 15px;
+	font-size: 25px;
+}
+#add-to-cart-single-pages-button{
+	margin-top: 100px;
+	font-size: 41px;
+}
+.add-to-cart-single-pages span{
+	padding:30px 65px 38px 0px;
+}
+.add-to-cart-single-pages i{
+	padding:28px 20px 30px 65px;
+}
+#box{
+	height: 110px;
+}
+.alert-text{
+	font-size: 20px;
+	padding:10px 130px 15px 10px;
+}
+.box-second-line input{
+	font-size: 24px;
+	width: 400px;
+	padding: 10px 0px 0px 2px;
+}
+#box-close-icon{
+	font-size: 32px;
+}
+#box-search-icon{
+	font-size: 26px;
+}
+.logIn-box{
+    width: 57%;
+    margin-top: 90px;
+    height: 530px;
+}
+.signUp-box{
+	width: 57%;
+    margin-top: 90px;
+}
+.LogIn-main{
+	padding: 50px 0px 770px 0px;
+}
+.logIn-box h1,
+.signUp-box h1{
+	font-size: 35px;
+	padding-bottom: 30px;
+}
+.logIn-box h1:after{
+    margin: 20px 0px;
+}
+.signUp-box h1:after{
+    margin: 20px 0px;
+}
+.logIn-box .box-input,
+.signUp-box .box-input{
+	margin-bottom: 35px;
+	font-size: 18px;
+	padding: 13px 10px 13px 10px;
+}
+.box-checkBox{
+	width: 17px;
+	height: 18px;
+}
+.checkbox-text{
+	font-size: 18px;
+	margin-left: 40px;
+}
+.box-submit{
+	margin-top: 40px;
+	font-size: 20px;
+	padding: 10px 25px;
+}
+.box-bottomPart{
+	margin-top: 50px;
+	border-top: 1px solid #f3f3f3;
+	padding-top: 35px;
+}
+.box-bottomPart p,
+.signup-bottomPart p {
+	font-size: 20px;
+}
+.box-bottomPart input,
+.signup-bottomPart input{
+	font-size: 18px;
+	margin-left: 15px;
+}
+.signUp-button{
+	margin-bottom: 35px;
+	font-size: 22px;
+	padding: 18px 0px 18px 10px;
+	width: 97.3%;
+}
+.select-country{
+	margin-bottom: 40px;
+	font-size: 18px;
+	padding: 13px 0px 13px 10px;
+}
+.signup-bottomPart{
+	margin-top: 20px;
+	padding-bottom: 40px;
+}
+.aboutUs-index h1{
+	font-size: 36px;
+	padding: 70px 0px 40px 0px;
+}
+.aboutUs-index p{
+	width: 85%;
+	margin: 0 auto;
+	font-size: 18px;
+	line-height: 30px;
+}
+.second-paragraph{
+	padding-top:40px;
+}
+.aboutUs-index {
+	padding: 0px 40px 20px 40px;
+}
+.FAQ-main{
+	padding: 50px 0px 40px 0px;
+}
+.faq-index{
+	margin-top: 70px;
+}
+.FAQ-main h5{
+	margin-left: 50px;
+	margin-right: 20px;
+	font-size: 26px;
+}
+.FAQ-main p{
+	padding: 20px 20px 40px 50px;
+	line-height: 30px;
+}
+.cart-main{
+	padding: 50px 0px 100px 0px;
+}
+.products-container{
+	margin: 0 auto;
+	padding:0px;
+}
+.product-header{
+	width: 547px;
+	border-bottom: 2px solid #f0da98;
+	padding-bottom: 20px; 
+}
+.product-title{
+	width:100px;
+	font-size: 16px;
+	margin-right: 20px;
+	margin-left: 10px;
+}
+.product{
+	width: 100%;
+	border-bottom: 1px solid #f0da98;
+	padding: 20px 0;
+	margin: 10px 0px;
+}
+.price{
+	width: 100px;
+	font-size: 16px;
+	margin-right: 8%;
+}
+.quantity{
+	width: 110px;
+	font-size: 16px;
+	margin-right: 8%;
+}
+.total{
+	width: 70px;
+	font-size: 16px;
+}
+.product img{
+	height: 70px;
+	margin-right: 1%;
+}
+.product-name{
+	font-size: 16px;
+	margin-right: 8%;
+}
+.checkout-button{
+	padding: 8px 15px;
+	font-size: 18px;
+}
+.checkout-button-a{
+	margin-left: 31%;
+}
+.basketTotalTitle{
+	margin-left: 5%;
+	font-size: 18px;
+}
+.basketTotal{
+	font-size: 18px;
+	border-bottom: 2px solid #f0da98;
+}
+.noItemsTxt{
+	font-size: 28px;
+	padding: 150px 0px 100px 0px;
+}
+#error-icon{
+	padding-right: 10px;
+	font-size: 35px;
+}
+.sendMessage-main{
+	padding-bottom: 0px 0px 100px 0px;
+}
+.sendMessage-form{
+	padding: 40px 50px;
+	height: 550px;
+	margin-top:75px;
+}
+.sendMessage-form h1{
+	font-size: 40px;
+	margin-bottom: 10px;
+}
+.sendMessage-form h3{
+	font-size: 16px;
+	margin-bottom: 50px;
+}
+.messageBox-input{
+	width: 85%;
+	height: 35px;
+	font-size: 16px;
+	margin: 10px 0px 14px 0px;
+	padding: 3px 10px;
+}
+.messageBox-textarea{
+	height: 190px;
+	font-size: 16px;
+	padding: 10px 10px;
+	margin: 20px 0px;
+}
+.messageBox-leftSide p,
+.messageBox-rightSide p{
+	font-size: 18px;
+}
+.meassageBox-submit{
+	font-size:22px;
+	padding: 10px 20px;
+	margin-top: 30px;
+}
+.for-men-main,
+.for-women-main,
+.for-unisex-main,
+.smart-watches-main{
+	background-color: #0b0a08;
+	padding: 50px 75px 100px 15p
+}
+.shopPages-nav{
+	width: 100%;
+	padding-left: 4%;
+	padding-right: 5.2%;
+}
+.shopPages-footer{
+	padding-left: 4%;
+	padding-right: 5.2%; 
+}
+#shopPages-secondSection{
+	padding-left: 4%;
+	padding-right: 5.2%;
+	width: 100%; 
+}
+}
+

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>For Men Shop Page</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="veiwport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/a87461a88f.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header class="shopPages-header">
+		<div id="box">
+			<div class="box-first-line">
+				<p class="alert-text">Looking for something special?</p>
+				<a href="#" onclick="pop()"><i id="box-close-icon" class="fas fa-times"></i></a>
+			</div>
+			<div class="box-second-line">
+				<input type="Search" placeholder="Search..." aria-label="Search">
+				<a href="#"><i id="box-search-icon" class="fa">&#xf002;</i></a>
+			</div>
+		</div>
+		<div class="head">
+			<a href="#" class="sidebar-icon" onclick="openSlideMenu()"><i class="fas fa-bars"></i></a>
+			<div class="header-brand">
+				<a href="index.html">MyWatch</a>
+			</div>
+			<div class="header-font">
+				<a href="cart.html" class="header-icons"><i class="fa">&#xf07a;</i><span class="cart-num">0</span></a>
+				<a href="#" onclick="pop()" class="header-icons" id="header-searchIcon"><i class="fa">&#xf002;</i></a>
+			</div>
+		</div>
+		<div id="sidebar">
+		<div id="content">
+			<a href="#" class="close-icon" onclick="closeSlideMenu()"><i class="fas fa-times"></i></a>
+			<ul class="myUl">
+				<li class="bordered-list"><a href="index.html" class="main-txt">home</a></li>
+				<li><a href="shop.html" class="main-txt">Shop</a></li>
+				<li><a href="for-men.html" class="child-txt">For Men</a></li>
+				<li><a href="for-women.html" class="child-txt">For Women</a></li>
+				<li><a href="unisex.html" class="child-txt">Unisex</a></li>
+				<li class="bordered-list"><a href="smart-watches.html" class="child-txt">Smart Watches</a></li>
+				<li><a href="#" class="main-txt">account</a></li>
+				<li><a href="signUp.html" class="child-txt">Sign Up</a></li>
+				<li class="bordered-list"><a href="LogIn.html" class="child-txt">Sign In</a></li>
+				<li><a href="#" class="main-txt">contact</a></li>
+				<li><a href="tel:(+374)94-673-118" class="child-txt">Tell (+374) 94-673-118</a></li>
+				<li class="bordered-list"><a href="send-message.html" class="child-txt">Send Message</a></li>
+				<li class="bordered-list"><a href="FAQ.html" class="main-txt">FAQ</a>
+			</ul>
+			<div class="socialMedia">
+				<a href="https://www.facebook.com/hovig.gulaghaian1999/" class="sm-img"><i class="fa sed">&#xf09a;</i></a>
+				<a href="https://www.instagram.com/hovig.gulaghayan/" class="sm-img"><i class="fa">&#xf16d;</i></a>
+				<a href="https://twitter.com/index?lang=en" class="sm-img"><i class="fa">&#xf099;</i></a>
+			</div>
+		</div>
+		</div>	
+	</header>
+	<nav class="shopPages-nav">
+		<ul class="nav-bar">
+			<li class="nav-main"><a href="index.html">Home</a></li>
+			<li class="nav-main nav-hiding"><a href="shop.html">Shop</a></li>
+			<li class="nav-main-dropdown"><a href="#">Contact<i id="dropdown-icon" class="fa">&#xf107;</i></a>
+				<ul class="nav-dropdown">
+					<li><a href="tel:(+374)94-673-118"><i id="phone-icon" class="fa">&#xf098;</i>(+374)94-673-118</a></li>
+					<li><a href="send-message.html"><i id="email-icon" class="fa">&#xf0e0;</i>E-mail</a></li>
+				</ul>
+			</li>
+			<li class="nav-main-dropdown nav-hiding"><a href="#">Account<i id="dropdown-icon" class="fa">&#xf107;</i></a>
+				<ul class="nav-dropdown">
+					<li><a href="LogIn.html">Sign In</a></li>
+					<li><a href="signUp.html">Sign Up</a></li>
+				</ul>
+			</li>
+			<li class="nav-main nav-shop-block"><a href="shop.html">Shop</a></li>
+			<li class="nav-main nav-hiding"><a href="aboutUs.html">About us</a></li>
+			<li class="nav-main nav-hiding"><a href="FAQ.html">FAQ</a></li>
+		</ul>
+	</nav>
+	<main class="for-men-main">
+		<div class="shop-links-main">
+			<a href="shop.html" class="shop-links">Shop</a>
+			<a href="for-men.html" class="shop-links-lastElement">For Men</a>
+		</div>
+		<h1 class="shopItemsPage-headerTxt">Men's</h1>
+		<div class="item" id="shop-items">
+		    <a href="forMen-Watch1.html"><img src="watch9.png" alt="item" id="shop-items-img" style="padding: 200px 0px"></a>
+		    <h3>Movado Heritage Series</h3>
+		    <h2 id="shop-items-price">$800</h2>
+		    <button class="add-to-cart-ForMen" type="button"><i class="fa">&#xf290;</i></button>
+		    <button class="shop-item-fonts" type="button"><i class='fas'>&#xf004;</i></button>
+		</div>
+		<div class="item" id="shop-items">
+		    <a href="forMen-Watch2.html"><img src="watch8.png" alt="item" id="shop-items-img" style="padding: 200px 0px"></a>
+		    <h3>Grand Seiko SBGN003 Silver</h3>
+		    <h2 id="shop-items-price">$380</h2>
+		    <button class="add-to-cart-ForMen" type="button"><i class="fa">&#xf290;</i></button>
+		    <button class="shop-item-fonts" type="button"><i class='fas'>&#xf004;</i></button>
+		</div>
+		<div class="item" id="shop-items">
+		    <a href="forMen-Watch5.html"><img src="watch7.png" alt="item" id="shop-items-img" style="padding: 200px 0px"></a>
+		    <h3>Movado Series 800 Blue Silver</h3>
+		    <h2 id="shop-items-price">$550</h2>
+		    <button class="add-to-cart-ForMen" type="button"><i class="fa">&#xf290;</i></button>
+		    <button class="shop-item-fonts" type="button"><i class='fas'>&#xf004;</i></button>
+		</div>
+		<div class="item" id="shop-items">
+		    <a href="forMen-Watch3.html"><img src="watch10.png" alt="item" id="shop-items-img" style="padding: 200px 0px"></a>
+		    <h3>TAG Heuer Formula 1 Senna</h3>
+		    <h2 id="shop-items-price">$900</h2>
+		    <button class="add-to-cart-ForMen" type="button"><i class="fa">&#xf290;</i></button>
+		    <button class="shop-item-fonts" type="button"><i class='fas'>&#xf004;</i></button>
+		</div>
+		<div class="item" id="shop-items">
+		    <a href="forMen-Watch4.html"><img src="watch6.png" alt="item" id="shop-items-img-wp"></a>
+		    <h3>Emporio Armani Rose Gold Tone</h3>
+		    <h2 id="shop-items-price">$225</h2>
+		    <button class="add-to-cart-ForMen" type="button"><i class="fa">&#xf290;</i></button>
+		    <button class="shop-item-fonts" type="button"><i class='fas'>&#xf004;</i></button>
+		</div>
+		<div class="item" id="shop-items">
+		    <a href="forMen-Watch6.html"><img src="watch2.png" alt="item" id="shop-items-img-wp"></a>
+		    <h3>Loewe Silver Tone Round</h3>
+		    <h2 id="shop-items-price">$410</h2>
+		    <button class="add-to-cart-ForMen" type="button"><i class="fa">&#xf290;</i></button>
+		    <button class="shop-item-fonts" type="button"><i class='fas'>&#xf004;</i></button>
+		</div>
+		<div class="item" id="shop-items">
+		    <a href="forMen-Watch7.html"><img src="watch3.png" alt="item" id="shop-items-img-wp"></a>
+		    <h3>Michael Kors Dylan Rose Gold Tone Chronograph</h3>
+		    <h2 id="shop-items-price">$275</h2>
+		    <button class="add-to-cart-ForMen" type="button"><i class="fa">&#xf290;</i></button>
+		    <button class="shop-item-fonts" type="button"><i class='fas'>&#xf004;</i></button>
+		</div>
+		<div class="item" id="shop-items">
+		    <a href="forMen-Watch8.html"><img src="watch19.png" alt="item" id="shop-items-img-wp"></a>
+		    <h3>Hugo Boss Grand Prix Black Ion Plated Chronograph</h3>
+		    <h2 id="shop-items-price">$340</h2>
+		    <button class="add-to-cart-ForMen" type="button"><i class="fa">&#xf290;</i></button>
+		    <button class="shop-item-fonts" type="button"><i class='fas'>&#xf004;</i></button>
+		</div>
+		<div class="item" id="shop-items">
+		    <a href="forMen-Watch9.html"><img src="watch20.png" alt="item" id="shop-items-img-wp"></a>
+		    <h3>Breitling Navitimer World 46 Automatic Chronograph</h3>
+		    <h2 id="shop-items-price">$750</h2>
+		    <button class="add-to-cart-ForMen" type="button"><i class="fa">&#xf290;</i></button>
+		    <button class="shop-item-fonts" type="button"><i class='fas'>&#xf004;</i></button>
+		</div>
+	</main>
+	<footer class="shopPages-footer">
+		<ul class="leftSide-info">
+			<li><a href="index.html">home</a></li>
+			<li><a href="shop.html">shop</a></li>
+			<li><a href="send-message.html">contact</a></li>
+			<li><a href="aboutUs.html">about us</a></li>
+			<li><a href="FAQ.html">faq</a></li>
+		</ul>
+		<ul class="rightSide-info">
+			<li class="rightSide-info-headerTxt">company</li>
+			<li><a href="tel:(+374)94-673-118"><i id="phone-icon" class="fa">&#xf098;</i>(+374) 94-673-118</a></li>
+			<li><a href="https://www.google.com/maps/@40.2161233,44.4897762,18.92z"><i class='fas' id="location-icon">&#xf3c5;</i>Yerevan, Armenia, Sasna<p class="locationTxt-2">Tsrer Street, 0054</p></a></li>
+		</ul>
+	</footer>
+	<section class="footer-second-section" id="shopPages-secondSection">
+			<h1 class="second-section-headerTxt">let's keep in touch</h1>
+			<div class="footer-sm">
+				<a href="https://www.facebook.com/hovig.gulaghaian1999" class="footer-sm-img sm-fonts"><i class="fa">&#xf09a;</i></a>
+				<a href="https://www.instagram.com/hovig.gulaghayan/" class="footer-sm-img sm-fonts"><i class="fa">&#xf16d;</i></a>
+				<a href="mailto:hgulaghayan@gmail.com?cc=hovigg99@hotmail.com&#38;bcc=example@hotmail.com&#38;subject=You can leave your feedback here" class="footer-sm-img sm-fonts"><i class="fa">&#xf0e0;</i></a>
+			</div>
+	</section>
+	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="myScripts.js"></script>
+</body>
+</html>

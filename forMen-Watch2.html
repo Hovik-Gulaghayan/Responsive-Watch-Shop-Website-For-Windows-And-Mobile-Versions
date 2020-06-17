@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Welcome to MyWatch</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta charset="utf-8">
+	<meta name="veiwport" content="width=device-width, initial-scale=1.0">
+	<script src="https://kit.fontawesome.com/a87461a88f.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<div id="box">
+			<div class="box-first-line">
+				<p class="alert-text">Looking for something special?</p>
+				<a href="#" onclick="pop()"><i id="box-close-icon" class="fas fa-times"></i></a>
+			</div>
+			<div class="box-second-line">
+				<input type="Search" placeholder="Search..." aria-label="Search">
+				<a href="#"><i id="box-search-icon" class="fa">&#xf002;</i></a>
+			</div>
+		</div>
+		<div class="head">
+			<a href="#" class="sidebar-icon" onclick="openSlideMenu()"><i class="fas fa-bars"></i></a>
+			<div class="header-brand">
+				<a href="index.html">MyWatch</a>
+			</div>
+			<div class="header-font">
+				<a href="cart.html" class="header-icons"><i class="fa">&#xf07a;</i><span class="cart-num">0</span></a>
+				<a href="#" onclick="pop()" class="header-icons" id="header-searchIcon"><i class="fa">&#xf002;</i></a>
+			</div>
+		</div>
+		<div id="sidebar">
+		<div id="content">
+			<a href="#" class="close-icon" onclick="closeSlideMenu()"><i class="fas fa-times"></i></a>
+			<ul class="myUl">
+				<li class="bordered-list"><a href="index.html" class="main-txt">home</a></li>
+				<li><a href="shop.html" class="main-txt">Shop</a></li>
+				<li><a href="for-men.html" class="child-txt">For Men</a></li>
+				<li><a href="for-women.html" class="child-txt">For Women</a></li>
+				<li><a href="unisex.html" class="child-txt">Unisex</a></li>
+				<li class="bordered-list"><a href="smart-watches.html" class="child-txt">Smart Watches</a></li>
+				<li><a href="#" class="main-txt">account</a></li>
+				<li><a href="signUp.html" class="child-txt">Sign Up</a></li>
+				<li class="bordered-list"><a href="LogIn.html" class="child-txt">Sign In</a></li>
+				<li><a href="#" class="main-txt">contact</a></li>
+				<li><a href="tel:(+374)94-673-118" class="child-txt">Tell (+374) 94-673-118</a></li>
+				<li class="bordered-list"><a href="send-message.html" class="child-txt">Send Message</a></li>
+				<li class="bordered-list"><a href="FAQ.html" class="main-txt">FAQ</a>
+			</ul>
+			<div class="socialMedia">
+				<a href="https://www.facebook.com/hovig.gulaghaian1999/" class="sm-img"><i class="fa sed">&#xf09a;</i></a>
+				<a href="https://www.instagram.com/hovig.gulaghayan/" class="sm-img"><i class="fa">&#xf16d;</i></a>
+				<a href="https://twitter.com/index?lang=en" class="sm-img"><i class="fa">&#xf099;</i></a>
+			</div>
+		</div>
+		</div>	
+	</header>
+	<main class="product-main">
+		<div class="shop-links-main">
+			<a href="shop.html" class="shop-links">Shop</a>
+			<a href="for-men.html" class="shop-links">For Men</a>
+			<a href="forMen-Watch2.html" class="shop-links-lastElement">Grand Seiko SBGN003</a>
+		</div>
+		<div class="product-details">
+		    <div class="product-image-single-page">
+		    	<img src="watch8.png" alt="item" style="padding: 200px 0px">
+		    </div>
+		    <p class="availability">Availability: <span class="availability-num">11 items</span></p>
+		    <span class="star-icons">
+				<i class="fa">&#xf006;</i>
+				<i class="fa">&#xf006;</i>
+				<i class="fa">&#xf006;</i>
+				<i class="fa">&#xf006;</i>
+				<i class="fa">&#xf006;</i>
+				<span>No reviews</span>
+			</span>
+		    <h2 class="brand-name">Grand Seiko SBGN003</h2>
+			<h3 class="brand-price">$380</h3>
+			<span class="brand-sale">$420</span>
+			<span class="brand-sale-minus"> - $40 sale</span>
+			<p class="brand-text">
+				Tick tock. You’ll never wonder what time it is again when you browse through all watches, including designer brands like Gucci, Daniel Wellington. From stainless steel and ceram...
+			</p>
+			<div class="add-to-cart-single-pages">
+		    	<button class="add-to-cart-ForMen-SecondModel" id="add-to-cart-single-pages-button" type="button"><span><i class="fa">&#xf290;</i>Add to cart</span></button>
+		    </div>
+		</div>
+	</main>
+	<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="myScripts.js"></script>
+</body>
+</html>
